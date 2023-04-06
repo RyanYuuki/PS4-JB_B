@@ -50,23 +50,23 @@ cursor: pointer;
 border-radius: 8px;
 }
 .btn:hover {
-background-color: #0058b1;
+background-color: #AE388B;
 }
 .btn2 {
-background-color: #b10000;
+background-color: #AE388B;
 }
 .btn2:hover {
-background-color: #f31414;
+background-color: #AE388B;
 }
 .btn-web {
-background-color: #076300;
+background-color: #AE388B;
 }
 .btn-web:hover {
-background-color: #18891b;
+background-color: #AE388B;
 }
 .btn-toolbox {
-background-color: #ae2301;
+background-color: #AE388B;
 }
 .btn-toolbox:hover {
-background-color: #d42a01;
+background-color: #AE388B;
 }
