@@ -2,7 +2,7 @@ html, body {
 background-image: url('img.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
-background-color: #E983D8;
+background-color:#2E3440;
 color: white;
 text-align: center;
 margin: 0px;
@@ -30,7 +30,7 @@ display: none;
 display: none;
 }
 .btn {
-background-color: #F9B4F6;
+background-color: #434C5E;
 color: white;
 width: 227px;
 height: 46px;
@@ -50,23 +50,23 @@ cursor: pointer;
 border-radius: 8px;
 }
 .btn:hover {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn2 {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn2:hover {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn-web {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn-web:hover {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn-toolbox {
-background-color: #AE388B;
+background-color: #434C5E;
 }
 .btn-toolbox:hover {
-background-color: #AE388B;
+background-color: #434C5E;
 }
