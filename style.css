@@ -16,22 +16,6 @@ text-align: center;
 margin: 0px;
 overflow: hidden;
 }
-
-a {
-text-decoration: none;
-}
-#main-section {
-display: block;
-}
-#crypto-section {
-display: none;
-}
-#backup-section {
-display: none;
-}
-#mods-section {
-display: none;
-}
 .btn {
 background-color: #2E3440;
 color: white;
