@@ -1,7 +1,4 @@
-@font-face
-    font-family: 'QuickSand';
-    src: url(Fonts/Quicksand Bold 700.ttf);
-}
+
 html, body {
 background-image: url('img.jpg');
 background-size: 100%;
@@ -14,7 +11,6 @@ overflow: hidden;
 }
 h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
-font-family: "Quicksand" , sans-serif;
 font-size: 25px;
 text-align: center;
 color: white;
