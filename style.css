@@ -1,3 +1,7 @@
+@font-face
+    font-family: 'QuickSand';
+    src: url(Fonts/Quicksand Bold 700.ttf);
+}
 html, body {
 background-image: url('img.jpg');
 background-size: 100%;
