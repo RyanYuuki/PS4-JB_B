@@ -1,4 +1,4 @@
-# PS4 Exploit Host
+# PS4 GamerHack Exploit Fork
 Firmwares: `6.72` `7.02` `7.5X` `9.00`
 
 ## Steps:
