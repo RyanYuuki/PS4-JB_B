@@ -1,4 +1,6 @@
-
+@font-face
+     font-family: 'QuickSand';
+     src: url(Fonts/QuickSand.ttf);
 html, body {
 background-image: url('img.jpg');
 background-size: 100%;
@@ -71,6 +73,7 @@ border-radius: 8px;
     border-left-width: 0px;
     transition-duration: 0.4s;
     padding-bottom: 5px;
+    font-family: 'QuickSand';
   }
 .btn:hover {
 background-color: #434C5E;
