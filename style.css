@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url(fonts/Quicksand.ttf);
+  font-family: 'Quicksand-Regular';
+  src: url(fonts/Quicksand Regular.ttf)
+}
 html, body {
 background-image: url('img.jpg');
 background-size: 100%;
@@ -33,7 +39,7 @@ display: none;
    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
    backdrop-filter: blur(10px);
    -webkit-backdrop-filter: blur(10px);
-   border-radius: 20px;
+   border-radius: 27px;
 color: white;
 width: 227px;
 height: 46px;
@@ -73,6 +79,8 @@ border-radius: 8px;
     border-left-width: 0px;
     transition-duration: 0.4s;
     padding-bottom: 5px;
+    color: white;
+    font-family: Quicksand-Regular
   }
 .btn:hover {
 background-color: #434C5E;
