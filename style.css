@@ -74,7 +74,7 @@ border-radius: 8px;
     border-left-width: 0px;
     transition-duration: 0.4s;
     padding-bottom: 5px;
-    font-family: 'QuickSand';
+    color: white;
   }
 .btn:hover {
 background-color: #434C5E;
