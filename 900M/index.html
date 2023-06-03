@@ -2,7 +2,7 @@
 <html manifest="cache.manifest">
 <head>
 <title>PS4 9.00 FW Host V4.0 by Ryan Yuuki | Manual Exploitation</title>
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style.css">
 <script src="int64.js"></script>
 <script src="rop.js"></script>
 <script src="kexploit.js"></script>
@@ -16,8 +16,8 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <h1 id="msgs">PS4 9.00 FW Host V4.0 by Ryan Yuuki</h1>
 <hr>
 <br>
-<div id="menu">
-<h1 style="font-size: 18px;color: white;">Main Payloads</h1>
+<div id="menu"
+<h1 style="font-size:18px;color: whitesmoke;">Main Payloads</h1>
 <button class="glass" onmouseover="msgs.innerHTML='GoldHEN v2.4b13 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_goldhen24b13()"> GoldHEN v2.4b13 </button>
 <button class="glass" onmouseover="msgs.innerHTML='GoldHEN v2.3 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_goldhen23()"> GoldHEN v2.3 </button>
 <button class="glass" onmouseover="msgs.innerHTML='Send a Payload using port 9020'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_binloader()"> Bin Loader </button>
@@ -49,7 +49,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="glass" onmouseover="msgs.innerHTML='Orbis ToolBox Alpha 1190 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_toolbox()"> Orbis-Toolbox </button>
 <button class="glass" onmouseover="msgs.innerHTML='Modify PS4 FAN Speed'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_fanthreshold()"> Fan Threshold </button><select id="tempC"></select>&#176;C
 <br>
-<h1 style="font-size: 18px;color: yellow;">Online Payloads</h1>
+<h1 style="font-size: 18px;color: whitesmoke;">Online Payloads</h1>
 <button class="glass" onclick="mods_group()" style="margin-bottom: 11px;width: 468px;"> Click Here to Load this Section </button>
 </div>
 <div id="lnx">
@@ -69,7 +69,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="glass" onmouseover="msgs.innerHTML='Return to Main Menu'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_menu()" style="margin-bottom: 229px"> Return </button>
 </div>
 <div id="mods">
-<h1 style="font-size: 18px;color: yellow;">Online Payloads</h1>
+<h1 style="font-size: 18px;color: skyblue;">Online Payloads</h1>
 <button class="glass" onmouseover="msgs.innerHTML='GTA V Mod - Arabic Guy v1.00 (L1 + R1)'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_arabicGuy100()"> Arabic Guy v1.00 </button>
 <button class="glass" onmouseover="msgs.innerHTML='GTA V Mod - Arabic Guy v1.27 (L1 + R1)'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_arabicGuy127()"> Arabic Guy v1.27 </button>
 <button class="glass" onmouseover="msgs.innerHTML='GTA V Mod - Arabic Guy v1.32 (L1 + R1)'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_arabicGuy132()"> Arabic Guy v1.32 </button>
@@ -92,7 +92,6 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <br>
 <button class="glass" onmouseover="msgs.innerHTML='Return to Main Menu'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host V4.0 by Ryan Yuuki'" onclick="load_menu()" style="margin-bottom: 229px"> Return </button>
 </div>
-<h1 style="margin-top: 55px;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@sleirsgoevy</a>ChendoChap<a href="https://twitter.com/Znullptr" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@Znullptr</a>SiSTR0</h1>
 <script>
 sessionStorage.setItem("exploit","no");
 sessionStorage.setItem("netcat","no");
