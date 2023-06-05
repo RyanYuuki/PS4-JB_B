@@ -7,3 +7,4 @@ Firmwares: `6.72` `7.02` `7.5X` `9.00`
 - Select the Firmware that your console has.
 - Immediately All content will be installed in Cache, once finished exit the browser and turn off the internet.
 - Then go back to Access Browser and Enjoy.
+- Fork of GamerHack Host.
