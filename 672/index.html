@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html manifest="cache.manifest"><head>
-<title>PS4 6.72 Host v3.0 by RyanYuuki</title>
-<link rel="stylesheet" href="style.css">
+<html manifest="cache.manifest">
+<head>
+<title>PS4 6.72 Host v3.0 by Ryan_Yuuki</title>
+<link rel="stylesheet" href="../style.css">
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
@@ -30,89 +31,89 @@ else {
 </script>
 </head>
 <body>
-<div id="main-section">
-<h1 id=msgs class="glass-titlehead">PS4 6.72 FW Host v3.0 by RyanYuuki</h1>
+<div id="menu">
+<h1 id="msgs" class="glass-titlehead">PS4 6.72 FW Host v3.0 by Ryan_Yuuki</h1>
 <hr>
 <br>
-<h1 style="font-size:20px;"><font color="green">Pass = <span id=passCounter></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Main Payloads (Run One to Jailbreak)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">Fail = <span id=failCounter></span></h1>
-<button class="glass" onclick=load_goldhen24b13()> GoldHEN v2.4b5 </button>
-<button class="glass" onclick=load_hen()> HEN v2.1.3 </button>
-<button class="glass" onclick=load_henb()> HEN v2.1.3b </button>
-<button class="glass" onclick=load_mira()> Mira </button>
+<h1 style="font-size: 18px;"><font color="green">Pass = <span id="passCounter"></span>&nbsp;&nbsp;&nbsp;&nbsp;<font color="lightskyblue">Main Payloads</span>&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">Fail = <span id="failCounter"></span></h1>
+<button class="glass" onclick="load_goldhen24b13()"> GoldHEN v2.4b13 </button>
+<button class="glass" onclick="load_hen()"> HEN v2.1.3 </button>
+<button class="glass" onclick="load_henb()"> HEN v2.1.3b </button>
+<button class="glass" onclick="load_mira()"> Mira </button>
 <br>
-<h1 style="font-size:20px;">Payloads</h1>
-<button class="glass" onclick=load_jb2()> Jailbreak </button>
-<button class="glass" onclick=load_ftp()> FTP </button>
-<button class="glass" onclick=load_App2usb()> App2USB </button>
-<button class="glass" onclick=load_binloader()> Bin Loader </button>
+<h1 style="font-size: 18px;">Payloads</h1>
+<button class="glass" onclick="load_jb2()"> Jailbreak </button>
+<button class="glass" onclick="load_ftp()"> FTP </button>
+<button class="glass" onclick="load_App2usb()"> App2USB </button>
+<button class="glass" onclick="load_binloader()"> Bin Loader </button>
 <br>
-<button class="glass" onclick=load_dumperG()> Dump Game Only </button>
-<button class="glass" onclick=load_dumperU()> Dump Update Only </button>
-<button class="glass" onclick=load_dumperGU()> Dump Game + Update </button>
-<button class="glass" onclick=load_dumperM()> Dump G. + U. Merged </button>
+<button class="glass" onclick="load_dumperG()"> Dump Game Only </button>
+<button class="glass" onclick="load_dumperU()"> Dump Update Only </button>
+<button class="glass" onclick="load_dumperGU()"> Dump Game + Update </button>
+<button class="glass" onclick="load_dumperM()"> Dump G. + U. Merged </button>
 <br>
-<button class="glass" onclick=load_enableUpdates()>  Enable Updates </button>
-<button class="glass" onclick=load_disableUpdates()> Disable Updates </button>
-<button class="glass" onclick=load_backup_section()> Backup and Restore </button>
-<button class="glass" onclick=load_historyBlocker()> History Blocker </button>
+<button class="glass" onclick="load_enableUpdates()">  Enable Updates </button>
+<button class="glass" onclick="load_disableUpdates()"> Disable Updates </button>
+<button class="glass" onclick="tools_group()"> Backup and Restore </button>
+<button class="glass" onclick="load_historyBlocker()"> History Blocker </button>
 <br>
-<button class="glass" onclick=load_LinuxUSB()> Linux USB </button>
-<button class="glass" onclick=load_LinuxBaikal()> Linux Baikal </button>
-<button class="glass" onclick=load_webrte()> WebRTE </button>
+<button class="glass" onclick="load_LinuxUSB()"> Linux USB </button>
+<button class="glass" onclick="load_LinuxBaikal()"> Linux Baikal </button>
+<button class="glass" onclick="load_webrte()"> WebRTE </button>
 <a href="http://ps4trainer.com/Trainer/index.html"><button class="glass"> PS4 Trainer Web </button></a>
 <br>
-<button class="glass" onclick=load_todex() style="margin-left: 113px;"> ToDEX </button>
-<button class="glass" onclick=load_ps4debug()> PS4 Debug </button>
-<button class="glass" onclick=load_KernelDumper()> Kernel Dumper </button>
-<button class="glass" onclick=load_fwspoof()> Spoof Firmware </button><select id="fws1"></select>&nbsp;<select id="fws2"></select>
+<button class="glass" onclick="load_todex()" style="margin-left: 108px;"> ToDEX </button>
+<button class="glass" onclick="load_ps4debug()"> PS4 Debug </button>
+<button class="glass" onclick="load_KernelDumper()"> Kernel Dumper </button>
+<button class="glass" onclick="load_fwspoof()"> Spoof Firmware </button><select id="fws1"></select><select id="fws2"></select>
 <br>
-<button class="glass" onclick=load_webact() style="margin-left: 73px;"> Web-Activator </button>
-<button class="glass" onclick=load_mods_section()> Games Mods </button>
-<button class="glass" onclick=load_orbistlbox()> Orbis-Toolbox </button>
-<button class="glass" onclick=load_fanthresh()> Fan Threshold </button><font color="white"><select id="tempC"></select>&#176;C
+<button class="glass" onclick="load_webact()" style="margin-left: 73px;"> Web-Activator </button>
+<button class="glass" onclick="mods_group()"> Games Mods </button>
+<button class="glass" onclick="load_orbistlbox()"> Orbis-Toolbox </button>
+<button class="glass" onclick="load_fanthreshold()"> Fan Threshold </button><font color="white"><select id="tempC"></select>&#176;C
 <br>
 </div>
-<div id="backup-section">
-<h1 id=msgs2>Backup and Restore </h1>
+<div id="tools">
+<h1 id="msgs2">Backup and Restore </h1>
 <hr>
 <br>
-<h1 style="font-size:20px;">Payloads</h1>
-<button class="glass" onclick=load_DBbackup()> DB Backup </button>
-<button class="glass" onclick=load_DBrestore()> DB Restore </button>
-<button class="glass" onclick=load_SDbackup()> Save Data Backup </button>
-<button class="glass" onclick=load_SDrestore()> Save Data Restore </button>
+<h1 style="font-size: 18px;">Payloads</h1>
+<button class="glass" onclick="load_DBbackup()"> DB Backup </button>
+<button class="glass" onclick="load_DBrestore()"> DB Restore </button>
+<button class="glass" onclick="load_SDbackup()"> Save Data Backup </button>
+<button class="glass" onclick="load_SDrestore()"> Save Data Restore </button>
 <br>
-<button class="glass" onclick=load_AvatarBackup()> Avatar Backup </button>
-<button class="glass" onclick=load_AvatarRestore()> Avatar Restore </button>
-<button class="glass" onclick=load_TrophyBackup()> Trophy Backup </button>
-<button class="glass" onclick=load_TrophyRestore()> Trophy Restore </button>
+<button class="glass" onclick="load_AvatarBackup()"> Avatar Backup </button>
+<button class="glass" onclick="load_AvatarRestore()"> Avatar Restore </button>
+<button class="glass" onclick="load_TrophyBackup()"> Trophy Backup </button>
+<button class="glass" onclick="load_TrophyRestore()"> Trophy Restore </button>
 <br>
-<button class="glass" onclick=load_HDDbackup()> HDD Upgrade Backup </button>
-<button class="glass" onclick=load_HDDrestore()> HDD Upgrade Restore </button>
-<button class="glass" onclick=load_CacheBackup()> Offline Cache Backup </button>
-<button class="glass" onclick=load_CacheRestore()> Offline Cache Restore </button>
+<button class="glass" onclick="load_HDDbackup()"> HDD Upgrade Backup </button>
+<button class="glass" onclick="load_HDDrestore()"> HDD Upgrade Restore </button>
+<button class="glass" onclick="load_CacheBackup()"> Offline Cache Backup </button>
+<button class="glass" onclick="load_CacheRestore()"> Offline Cache Restore </button>
 <br>
-<button class="glass" onclick=close_section() style="margin-bottom: 248px"> Return </button>
+<button class="glass" onclick="load_menu()" style="margin-bottom: 241px;"> Return </button>
 </div>
-<div id="mods-section">
-<h1 id=msgs3>Games Mods </h1>
+<div id="mods">
+<h1 id="msgs3">Games Mods </h1>
 <hr>
 <br>
-<h1 style="font-size:20px;">Payloads</h1>
-<button class="glass" onclick=load_ArabicGuy100()>  Arabic Guy 1.00 </button>
-<button class="glass" onclick=load_ArabicGuy127()> Arabic Guy 1.27 </button>
-<button class="glass" onclick=load_ArabicGuy132()> Arabic Guy 1.32 </button>
-<button class="glass" onclick=load_Lamance()> Lamance v0.9 - 1.38 </button>
+<h1 style="font-size:18px;">Payloads</h1>
+<button class="glass" onclick="load_ArabicGuy100()">  Arabic Guy 1.00 </button>
+<button class="glass" onclick="load_ArabicGuy127()"> Arabic Guy 1.27 </button>
+<button class="glass" onclick="load_ArabicGuy132()"> Arabic Guy 1.32 </button>
+<button class="glass" onclick="load_Lamance()"> Lamance v0.9 - 1.38 </button>
 <br>
-<button class="glass" onclick=load_Oysters100()> RDR2 v1.00 </button>
-<button class="glass" onclick=load_Oysters113()> RDR2 v1.13 </button>
-<button class="glass" onclick=load_Oysters119()> RDR2 v1.19 </button>
-<button class="glass" onclick=load_Oysters124()> RDR2 v1.24 </button>
-<button class="glass" onclick=load_Oysters129()> RDR2 v1.29 </button>
+<button class="glass" onclick="load_Oysters100()"> RDR2 v1.00 </button>
+<button class="glass" onclick="load_Oysters113()"> RDR2 v1.13 </button>
+<button class="glass" onclick="load_Oysters119()"> RDR2 v1.19 </button>
+<button class="glass" onclick="load_Oysters124()"> RDR2 v1.24 </button>
+<button class="glass" onclick="load_Oysters129()"> RDR2 v1.29 </button>
 <br>
-<button class="glass" onclick=close_section() style="margin-bottom: 310px"> Return </button>
+<button class="glass" onclick="load_menu()" style="margin-bottom: 303px;"> Return </button>
 </div>
-<h1 style="font-size: 25px;text-align: center;margin-top: 30px;color: yellow;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color: #f31414;margin-left: 10px;">@sleirsgoevy</a><a style="color: white;margin-left: 10px;">Leeful</a><a href="https://twitter.com/_AlAzif" style="color: #f31414;margin-left: 10px;">@_AlAzif</a><a style="color: white;margin-left: 10px;">and to all the developers involved in the scene.</a></h1>
+<h1 style="margin-top: 43px;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color: lightskyblue;margin-left: 10px;margin-right: 10px;">@sleirsgoevy</a>Leeful<a href="https://twitter.com/_AlAzif" style="color: lightskyblue;margin-left: 10px;">@_AlAzif</a></h1>
 <script>
 for(var i=40; i<=79; i++){var select = document.getElementById("tempC"); var option = document.createElement("OPTION"); select.options.add(option); option.text = i; option.value = i;}
 tempC.value=60;
@@ -124,20 +125,20 @@ for(var i=00; i<=99; i++){var select2 = document.getElementById("fws2"); var opt
 fws2.value=00;
 </script>
 <script>
-function load_backup_section(){
-document.getElementById("backup-section").style.display = "block";
-document.getElementById("main-section").style.display = "none";
+function tools_group(){
+document.getElementById("tools").style.display = "block";
+document.getElementById("menu").style.display = "none";
 }
 
-function load_mods_section(){
-document.getElementById("mods-section").style.display = "block";
-document.getElementById("main-section").style.display = "none";
+function mods_group(){
+document.getElementById("mods").style.display = "block";
+document.getElementById("menu").style.display = "none";
 }
 
-function close_section(){
-document.getElementById("main-section").style.display = "block";
-document.getElementById("backup-section").style.display = "none";
-document.getElementById("mods-section").style.display = "none";
+function load_menu(){
+document.getElementById("menu").style.display = "block";
+document.getElementById("tools").style.display = "none";
+document.getElementById("mods").style.display = "none";
 }
 
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
@@ -150,15 +151,15 @@ if (localStorage.failcount == null) localStorage.failcount=0;
 window.failCounter.innerHTML=localStorage.failcount;
 
 function load_jb2(){
-msgs.innerHTML="Loading Jailbreak, Plase Wait ...";
+msgs.innerHTML="Loading Jailbreak, Please Wait ...";
 LoadedMSG="Jailbreak Completed ✔";
 function loadScript(){getScript("jb2.js",function(){setTimeout(jailbreak2,1500);});}loadScript();
 }
 
-function load_goldhen24b5(){
-msgs.innerHTML="Loading GoldHEN v2.4b5 ...";
-LoadedMSG="GoldHEN v2.4b5 Loaded ✔";
-PLfile="pl_goldhen_v2.4b5.bin";
+function load_goldhen24b13(){
+msgs.innerHTML="Loading GoldHEN v2.4b13 ...";
+LoadedMSG="GoldHEN v2.4b13 Loaded ✔";
+PLfile="pl_goldhen_v2.4b13.bin";
 setTimeout(jailbreak,500);
 }
 
@@ -465,7 +466,7 @@ PLfile="pl_Orbis-Toolbox-672.bin";
 loadScript1();
 }
 
-function load_fanthresh(){
+function load_fanthreshold(){
 msgs.innerHTML="Loading Fan Threshold ...";
 LoadedMSG="Fan Threshold Loaded ✔";fanTemp=tempC.value;
 PLfile="pl_FanThresh.js";
