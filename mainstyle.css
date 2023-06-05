@@ -105,8 +105,8 @@ a {
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    width: 150px;
-    height: 30px;
+    width: 170px;
+    height: 45px;
     text-align: center;
     font-size: 14px;
     margin-top: 5px;
@@ -152,3 +152,4 @@ font-family: Mono;
     text-align: center;
     font-family: Mono;
  }
+ 
