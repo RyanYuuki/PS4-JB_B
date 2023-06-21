@@ -1,0 +1,185 @@
+@font-face {
+font-family: "Mono";
+src: url(../fonts/DroidSans.ttf);
+}
+html {
+  background-image: url('1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #24272b;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 25px;
+  color: white;
+  font-family: Mono;
+}
+
+a {
+  text-decoration: none;
+}
+
+#progress {
+  display: block;
+}
+
+#menu {
+  font-family: Mono;
+}
+
+#crypto {
+  display: none;
+}
+
+#tools {
+  display: none;
+}
+
+#lnx {
+  display: none;
+}
+
+#mods {
+  display: none;
+}
+
+.btn {
+  background-color: #003263;
+  color: white;
+  width: 227px;
+  height: 46px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #0058b1;
+}
+
+.alt {
+  background-color: #b10000;
+}
+
+.alt:hover {
+  background-color: #f31414;
+}
+
+.onln {
+  background-color: #076300;
+}
+
+.onln:hover {
+  background-color: #18891b;
+}
+
+.toolbox {
+  background-color: #ae2301;
+}
+
+.toolbox:hover {
+  background-color: #d42a01;
+}
+
+.glass {
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur;
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+margin-left: 3px;
+margin-right: 3px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+transition-duration: 0.4s;
+cursor: pointer;
+font-family: Mono;
+color: mediumpurple;
+  }
+  .glass-titlehead2 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 27px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+    height:25px;
+    display:inline-table;
+    font-family: system-ui;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    font-family:Mono;
+    color:darkgrey ;
+ }
+ 
+  .glass-titlehead {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 27px;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+    height:40px;
+    display:inline-table;
+    font-family: system-ui;
+    width: 100%;
+    text-align: center;
+    font-family: Mono;
+    color: darkgrey;
+ }
+ .about2{
+ float:right;
+ margin-right:2.25%;
+ font-weight:bold;
+ margin-top: 15px;
+ font-size:25px;
+}
+.glass-a {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  font-family: Mono;
+  color: mediumpurple;
+  float: center;
+  }

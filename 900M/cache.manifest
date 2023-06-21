@@ -2,8 +2,11 @@ CACHE MANIFEST
 
 CACHE: 
 ../fonts/DroidSans.ttf
-../img.jpg
-../style.css
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+style.css
 app2usb.bin
 backup.bin
 disable-aslr.bin
@@ -23,7 +26,7 @@ fan-threshold75.bin
 frontend.js
 ftp.bin
 goldhen_2.3.bin
-goldhen_v2.4b13.bin
+goldhen_v2.4b14.bin
 history-blocker.bin
 index.html
 int64.js
