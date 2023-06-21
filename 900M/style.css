@@ -169,7 +169,7 @@ color: ghostwhite;
   border-radius: 20px;
   border:1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  width: 150px;
+  width: 50%;
   height: 30px;
   text-align: center;
   justify-content: center;
@@ -180,6 +180,35 @@ color: ghostwhite;
   margin-right: 3px;
   cursor: pointer;
   font-family: Mono;
-  color: mediumpurple;
+  color: darkgrey;
   float: center;
+  }
+    .theme img {
+    width:100%;
+  }
+.glass-b {
+
+
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur;
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+margin-left: 3px;
+margin-right: 3px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+transition-duration: 0.4s;
+cursor: pointer;
+font-family: Mono;
+color: ghostwhite;
   }
