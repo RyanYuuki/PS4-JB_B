@@ -12,6 +12,7 @@ html {
   color: white;
   text-align: center;
   overflow: hidden;
+  backdrop-filter: blur(20px);
 }
 
 h1 {
