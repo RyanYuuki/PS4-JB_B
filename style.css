@@ -2,6 +2,9 @@
 font-family: "Mono";
 src: url(fonts/DroidSans.ttf);
 }
+body {
+  backdrop-filter: blur(20px);
+}
 html {
   background-image: url('img.jpg');
   background-position: center;
@@ -12,7 +15,6 @@ html {
   color: white;
   text-align: center;
   overflow: hidden;
-  backdrop-filter: blur(20px);
 }
 
 h1 {
